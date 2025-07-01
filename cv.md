@@ -31,3 +31,7 @@ Education
 2022. IT-Incubator. Frontend - development.
 2023. Udemy. Ivan Petrichenko. WEB-developer.
 2023. Udemy. Ivan Marfel. UX-UI Design for begginers.
+
+Languages
+Russian - Native
+English - B1
