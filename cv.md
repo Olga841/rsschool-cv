@@ -26,3 +26,8 @@ Creating study projects. Learning of HTML, CSS, JS, React and other technologies
 Freelance.
 Creating frontend at commerce projects (Markup, styles, logics, architectire & others).
 
+Education
+2021. Udemy. Ivan Petrichenko. JS & React.
+2022. IT-Incubator. Frontend - development.
+2023. Udemy. Ivan Petrichenko. WEB-developer.
+2023. Udemy. Ivan Marfel. UX-UI Design for begginers.
