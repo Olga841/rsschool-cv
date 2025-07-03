@@ -1,1 +1,1 @@
-# https://olga841.github.io/rsschool-cv/cv
+https://olga841.github.io/rsschool-cv/
