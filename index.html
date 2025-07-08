@@ -27,17 +27,122 @@
           I enjoy solving interesting problems, working in a team, and bringing
           value to other people and projects
         </div>
-        <img src="src/photo.jpg" alt="photo">
+        <img src="src/photo.jpg" alt="photo" />
       </section>
       <section class="skills" id="#skills">
         <h2>Skills</h2>
         <ul>
-            <li>HTML (HTML5)</li>
-            <li>CSS (SCSS, SASS, TailwindCSS, Bootstrap, MUI, BEM Metodology)</li>
-            <li>Java Script</li>
-            <li>Type Script</li>
-            <li>React</li>
-            <li>Figma (UX/UI)</li>
+          <li>HTML (HTML5)</li>
+          <li>CSS (SCSS, SASS, TailwindCSS, Bootstrap, MUI, BEM Metodology)</li>
+          <li>Java Script</li>
+          <li>Type Script</li>
+          <li>React</li>
+          <li>Figma (UX/UI)</li>
+        </ul>
+      </section>
+      <section class="code">
+        <h2>Code examples</h2>
+        <ul>
+          <li>
+            <a href="https://github.com/Olga841/bank-form">
+              example of bank-form for credit (Angular)
+            </a>
+            <pre>
+                <code>
+                export class BankFormComponent implements OnInit {
+                    transactionForm!: FormGroup;
+
+                    constructor(private fb: FormBuilder) {}
+
+                    ngOnInit(): void {
+                        this.transactionForm = this.fb.group({
+                        clientData: this.fb.group({}),
+                        registrationAddress: this.fb.group({}),
+                        bankDetails: this.fb.group({}),
+                        transactionInfo: this.fb.group({}),
+                        additionalDocuments: this.fb.array([])
+                        });
+                    }
+                }
+                </code>
+            </pre>
+          </li>
+          <li>
+            <a href="https://github.com/Olga841/1"
+              >landing for Lorem company
+            </a>
+            <pre><code>
+                &lt;div class="container"&gt;
+                    &lt;h1 class="promo__title"&gt;
+                    "Lorem – your path to the perfect home!
+                    &lt;/h1&gt;
+                    &lt;div class="promo__subtitle"&gt;
+                    Want to buy, sell, or rent a home on the best terms? We
+                    know where to find great deals and how to make the
+                    process simple and convenient.
+                    &lt;/div&gt;                      
+                &lt;/div&gt;
+            </code></pre>
+          </li>
+          <li>
+            <a href="https://github.com/Olga841/ProjectWordpress"
+              >landing for Wordpress' training company
+            </a>
+            <pre>
+                <code>
+                &lt;section class="promo"&gt;
+                  &lt;div class="container"&gt;
+                    &lt;div class="logo"&gt;
+                      &lt;img
+                        src="icons/main_logo.jpg"
+                        alt="main_logo"
+                        class="logo_img"
+                      /&gt;
+                      &lt;div class="logo_text"&gt;WordPress интенсив&lt;/div&gt;
+                    &lt;/div&gt;
+                    &lt;h1 class="title"&gt;Создать свой сайт на WordPress&lt;/h1&gt;
+                    &lt;div class="simple"&gt;
+                      &lt;h2 class="title_big"&gt;это просто!&lt;/h2&gt;
+                      &lt;div class="line"&gt;&lt;/div&gt;
+                    &lt;/div&gt;
+                    &lt;h2 class="title"&gt;Куда сложнее сделать это правильно!&lt;/h2&gt;
+                    &lt;div class="promo_text"&gt;
+                      Ежедневно в России появляется более 5 000 новых сайтов.
+                      &lt;br /&gt;
+                      И только единицы из них становятся популярными и приносят
+                      ощутимую прибыль. В чем секрет? В чем формула успеха?
+                      Узнайте на предстоящем двухдневном
+                      &lt;span&gt;БЕСПЛАТНОМ&lt;/span&gt; интенсиве!
+                    &lt;/div&gt;
+                    &lt;button class="promo_btn"&gt;Записаться на интенсив!&lt;/button&gt;
+                    &lt;div class="more">
+                      &lt;div class="more_text">узнать больше об интенсиве&lt;/div&gt;
+                      &lt;img src="icons/down.png" alt="down" class="more_img" /&gt;
+                    &lt;/div&gt;
+                  &lt;/div&gt;
+                &lt;/section&gt;
+              </code>
+              </pre>
+          </li>
+          <li>
+            <a href="https://github.com/Olga841/modal" target="_blank">
+              form (modal window) for creating user (Next.js)
+            </a>
+            <pre><code>
+    const FormField = 
+    &lt;TFieldValues&gt; extends FieldValues = FieldValues,
+    TName extends FieldPath&lt;TFieldValues&gt; = FieldPath&lt;FormFieldContext.Provider&gt;
+    (
+    { ...props }: ControllerProps&lt;TFieldValues, TName&gt;
+    ) => {
+    return (
+        &lt;FormFieldContext.Provider value={{ name: props.name }}&gt;
+        &lt;Controller {...props}/&gt;
+        &lt;/FormFieldContext.Provider&gt;
+    );
+    };
+  </code></pre>
+          </li>
         </ul>
       </section>
     </main>
