@@ -390,7 +390,38 @@ nav > ul > li > a:hover, nav > ul > li > a:active {
   opacity: 50%;
 }
 
-/** H1 **/
+/** H1, H2 **/
 h1 {
+  margin: 0 auto;
   margin-top: 150px;
+  text-align: center;
+  font-size: 48px;
+}
+
+h2 {
+  font-size: 36px;
+  margin-top: 20px;
+  padding-left: 30px;
+}
+
+/** ABOUT SECTION **/
+
+.about {
+  position: relative;
+  margin-top: 50px;
+}
+
+.about__descr {
+  line-height: 200%;
+}
+
+.about > img {
+  width: 150px;
+  height: 150px;
+  display: block;
+  border: 1px solid #007844;
+  border-radius: 50%;
+  position: absolute;
+  top: 0;
+  left: 80%;
 }
