@@ -481,7 +481,7 @@ code {
 /**  WORK **/
 
 .work {
-  margin-top: 150px;
+  margin-top: 70px;
 }
 
 .work > ul {
@@ -508,11 +508,22 @@ code {
 /** EDUCATION **/
 
 .education {
-  margin-top: 150px;
+  margin-top: 70px;
 }
 
 .education > ul > li {
   line-height: 200%;
+}
+
+/** LANGUAGES **/
+
+.languages {
+  margin-top: 70px;
+}
+
+.languages > ul > li {
+  line-height: 200%;
+  font-weight: 700;
 }
 
 
