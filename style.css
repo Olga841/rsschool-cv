@@ -505,4 +505,14 @@ code {
   line-height: 200%;
 }
 
+/** EDUCATION **/
+
+.education {
+  margin-top: 150px;
+}
+
+.education > ul > li {
+  line-height: 200%;
+}
+
 
