@@ -526,4 +526,15 @@ code {
   font-weight: 700;
 }
 
+/** CONTACTS **/
+.contacts {
+  margin-top: 70px;
+}
+
+.contacts > ul > li {
+  line-height: 200%;
+  font-weight: 700;
+  list-style-type: none;
+}
+
 
