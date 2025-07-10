@@ -537,4 +537,37 @@ code {
   list-style-type: none;
 }
 
+/** FOOTER **/
+
+footer {
+  margin-top: 70px;
+  background-color: #007844;
+  color: #D1FFEB;
+}
+
+.wrapper {
+  padding: 40px 0;
+  display: flex;
+  gap: 100px;
+  justify-content: center;
+  align-items: center;
+}
+
+.github > a > img {
+  display: block;
+  width: auto;
+  height: 50px;
+}
+
+.year {
+  font-size: 28px;
+  font-weight: 700;
+}
+
+.rss > a > img {
+  display: block;
+  width: auto;
+  height: 50px;
+}
+
 
