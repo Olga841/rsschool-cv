@@ -478,4 +478,31 @@ code {
   
 }
 
+/**  WORK **/
+
+.work {
+  margin-top: 150px;
+}
+
+.work > ul {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 40px;
+}
+
+.work > ul > li {
+  width: 30%;
+  list-style-type: none;
+}
+
+.work > ul > li > p {
+  text-align: center;
+  font-weight: 700;
+}
+
+.work > ul > li > div {
+  font-size: 14px;
+  line-height: 200%;
+}
+
 
